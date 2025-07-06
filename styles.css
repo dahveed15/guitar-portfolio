@@ -1,0 +1,92 @@
+/* Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    color: #222;
+    background: url('david_guitar.png') no-repeat center 33% fixed;
+    background-size: cover;
+    line-height: 1.6;
+    min-height: 100vh;
+}
+
+.hero {
+    height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 2rem;
+    color: white;
+    border-radius: 10px;
+}
+
+section {
+    padding: 3rem 1rem;
+    max-width: 800px;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.9);
+    /* Semi-transparent white */
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #333;
+    text-align: center;
+}
+
+.highlights ul {
+    list-style: none;
+    padding-left: 0;
+    text-align: center;
+}
+
+.highlights li {
+    padding: 0.5rem 0;
+}
+
+.video-grid {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.video-grid iframe {
+    width: 100%;
+    max-width: 400px;
+    aspect-ratio: 16 / 9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.contact {
+    text-align: center;
+}
+
+.contact a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: rgba(240, 240, 240, 0.9);
+    /* Semi-transparent */
+    font-size: 0.9rem;
+    margin-top: 2rem;
+}
